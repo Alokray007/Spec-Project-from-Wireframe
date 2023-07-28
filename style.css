@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px ;
+}
+
+.title h2{
+    border: 3px solid black;
+    padding: 4px 20px;
+}
+
+hr {
+    border: 2px solid black;
+}
+
+.navbar ul  {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+
+.navbar a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.main {
+    position: relative;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+h1 {
+    border: 3px solid black;
+    padding: 10px 10px 20px;
+}
+
+.content1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.f, .t, .share {
+    border: 2px solid black;
+    padding: 4px 8px;
+    font-weight: bold;
+}
+
+.mountain-img img {
+    display: flex;
+    margin: 20px auto;
+    width: 56%;
+}
+
+.content2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.content3 {
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid black;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px;
+}
+
+.footer h2 {
+    border: 2px solid black;
+
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
