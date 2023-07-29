@@ -1,6 +1,139 @@
 * {
     margin: 0;
     padding: 0;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px ;
+}
+
+.title h2{
+    border: 3px solid black;
+    padding: 4px 20px;
+}
+
+hr {
+    border: 2px solid black;
+}
+
+.navbar ul  {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+
+.navbar a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* .main {
+    position: relative;
+} */
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin: 10px ;
+    box-sizing: border-box;
+}
+
+h1 {
+    border: 3px solid black;
+    padding: 10px 10px 20px;
+}
+
+.content1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.f, .t, .share {
+    border: 2px solid black;
+    padding: 4px 8px;
+    font-weight: bold;
+}
+
+.mountain-img img {
+    display: flex;
+    margin: 20px auto;
+    width: 56%;
+}
+
+.content2 {
+    display: flex;
+    flex-direction: column;
+    /* margin: 0 auto; */
+}
+
+.content2>h2,p {
+    display: flex;
+}
+
+.content3 {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid black; */
+}
+
+.one {
+    display: flex;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 10px 20px;
+
+}
+
+.item1 ul , .item2 ul {
+    list-style-type: '- ';
+}
+
+.item1 {
+    padding-right: 40px;
+}
+
+
+.content3 a {
+    text-decoration: none;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px;
+    align-items: center;
+}
+
+.footer h2 {
+    border: 2px solid black;
+}
+
+.footer .info ul {
+    display: flex;
+}
+
+.footer .info ul li {
+    list-style: none;
+    margin: 0 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+* {
+    margin: 0;
+    padding: 0;
     scroll-behavior: smooth;
 }
 
@@ -33,6 +166,15 @@ hr {
 
 .main {
     position: relative;
+    width: 100%;
+    max-width: 75%;
+    padding-left:12rem;
+
+    @media only screen and (max-width: 854px){
+        position: relative;
+        width: 100%;
+        padding-left: 1.5rem;
+    }
 }
 
 .header {
@@ -44,11 +186,17 @@ hr {
 h1 {
     border: 3px solid black;
     padding: 10px 10px 20px;
+      font-size: 45px;
+
+    @media only screen and (max-width: 854px) {
+        font-size: 28px;
+    }
 }
+
 
 .content1 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .f, .t, .share {
@@ -60,7 +208,7 @@ h1 {
 .mountain-img img {
     display: flex;
     margin: 20px auto;
-    width: 56%;
+    width: 100%;
 }
 
 .content2 {
@@ -68,6 +216,12 @@ h1 {
     flex-direction: column;
     justify-content: space-around;
     margin: 0 auto;
+}
+
+.content2 p
+{
+  padding-left:15px;
+  padding-right:15px;
 }
 
 .content3 {
@@ -93,3 +247,10 @@ h1 {
     justify-content: space-around;
     align-items: center;
 }
+.info-hdr
+{
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} */
