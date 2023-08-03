@@ -36,12 +36,13 @@ hr {
     justify-content: center;
     width: 66vw;
     box-sizing: border-box;
-    margin: 10px auto 0;
+    margin: 10px auto 5px;
 }
 
 h1 {
     border: 3px solid black;
     padding: 10px 10px 20px;
+    font-size: 40.7px;
 }
 
 .content1 {
