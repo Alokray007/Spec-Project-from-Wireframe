@@ -80,6 +80,7 @@ h1 {
     border: 2px solid black;
     padding: 5px;
     width: 66vw;
+    justify-content: space-between;
 }
 
 .item1 ul , .item2 ul {
